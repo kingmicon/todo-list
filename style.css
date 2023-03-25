@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 250px;
+  }
+section {
+    background-color: aqua;
+    text-align: center;
+    color: red;
+    padding: 40px;
+    font-family: 'sans-serif';
+    font-weight: bolder;
+}
+section .heading {
+background-color: white;
+font-size: 20px;
+margin-bottom: 25px;
+}
+section .body {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section .body input{
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 14px;
+    border: none;
+    float: left;
+    width: 75%;
+    margin: 0;
+}
+section .body button{
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(218, 214, 214, 0.705);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    width: 25%;
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    border: 0;
+}
+ ul {
+    padding: 0;
+    margin: 0px;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: left;
+    padding: 12px 8px 12px 40px;
+    background-color: #ddd;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover {
+    background-color: black;
+    color: white;
+}
+  
